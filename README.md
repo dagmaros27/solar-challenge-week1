@@ -41,7 +41,31 @@ The dataset is aggregated from Solar Radiation Measurement Data and includes the
 ## Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd solar-challenge-week1
    ```
+
+   2. **Add country data**
+
+      Place the data files for each country inside the `data` folder in the repository.
+
+   3. **Explore country-specific EDA**
+
+      You can switch to a specific country's EDA branch (e.g., `benin-eda`, `togo-eda`) using:
+
+      ```bash
+      git checkout <country>-eda
+      ```
+
+      Each branch contains a Jupyter notebook with exploratory data analysis (EDA) for that country. Open the notebook to review the analysis and insights.
+
+   4. **Run the analysis**
+      You can run the analysis using Jupyter Notebook or any Python IDE. Make sure to install the required libraries listed in `requirements.txt`:
+
+      ```bash
+      pip install -r requirements.txt
+      ```
+
+      Then, run the Jupyter notebook or Python script to execute the analysis.
